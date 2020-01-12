@@ -39,9 +39,7 @@ public class Main {
 
         System.out.println("5 - " + imiona1.stream().map(x -> reverse.apply(x)).collect(Collectors.toList()));
 
-        Function<String, Boolean> endsWitha = x -> {
-            return x.charAt(x.length()-1) == 'a';
-        };
+        Function<String, Boolean> endsWitha = x -> x.charAt(x.length()-1) == 'a';
 
         System.out.println("6 - " + imiona1.stream().map(x -> endsWitha.apply(x)).collect(Collectors.toList()));
 

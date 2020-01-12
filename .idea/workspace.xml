@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="302cb6b2-7a8a-44fb-b836-84a23a60a3de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" afterPath="$PROJECT_DIR$/src/test/java/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="51" column="74" lean-forward="true" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="386">
+              <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -286,7 +286,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578821752937</updated>
-      <workItem from="1578821758175" duration="11514000" />
+      <workItem from="1578821758175" duration="11654000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;finished&quot;">
       <created>1578835080368</created>
@@ -299,10 +299,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11514000" />
+    <option name="totallyTimeSpent" value="11654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1806" height="1102" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -366,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="51" column="74" lean-forward="true" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+        <state relative-caret-position="386">
+          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
