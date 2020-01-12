@@ -48,28 +48,15 @@ public class Main {
 
         //Zadanie 2
         Pattern pattern1 = Pattern.compile("\\S");
-        //Pattern pattern = Pattern.compile("[\\w\\p{L}]+, [\\w\\p{L}]+");
-        Pattern pattern2 = Pattern.compile(", [\\w\\p{L}]+");
-        Pattern pattern3 = Pattern.compile("[\\w\\p{L}]+, [\\w\\p{L}]+");
 
         List<String> imiona2 = Files.readAllLines(Paths.get("imiona.txt"))
                 .stream()
-                // .x
-                //.filter(x -> x.matches("\\S"))
-                //.filter(x -> x.matches("[\\w\\p{L}]+, [\\w\\p{L}]+"))
-
-
-                // .filter(x -> Pattern.matches("[\\w\\p{L}]+, [\\w\\p{L}]+", s))
-
-                // .filter(x -> x.matches("[\\w\\p{L}]+, [\\w\\p{L}]+"))
-                // .peek(System.out::println)
                 .filter(pattern1.asPredicate())
-                // .y
-                .map(x -> pattern2.matcher(x))
-                // .z
-                .collect(Collectors.toList().);
+                .map(x -> x.trim())
+                .map(x -> x.split(", ")[1] + " " + x.split(", ")[0])
+                .collect(Collectors.toList());
 
-        System.out.println("Zadanie 2");
+        System.out.println("\nZadanie 2");
         System.out.println(imiona2);
 
     }
